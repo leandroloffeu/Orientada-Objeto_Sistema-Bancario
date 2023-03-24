@@ -35,3 +35,7 @@ class Conta:
         else:
             print(f'Procure um agiota..... {self.saldo}')
 
+##__new__() #Pesquisa sobre o funcionamento desses metodos __new__()
+##__init__() #Pesquisa sobre o funcionamento desses metodos __init__()
+
+

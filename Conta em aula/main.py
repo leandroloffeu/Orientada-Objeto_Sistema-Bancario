@@ -1,4 +1,4 @@
-from cliente import Cliente
+from cliente import Cliente 
 from conta import *
 from cliente import *
 
@@ -16,3 +16,6 @@ if __name__ == '__main__':
     conta1.sacar(10)
     conta1.historico.imprime()
     
+    print(dir(Conta))
+    print(conta1.__dict__)
+    print(vars(conta1))
